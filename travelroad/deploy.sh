@@ -1,7 +1,5 @@
-#!/bin/bash
-
-ssh arkania "
-  cd $(dirname $0)
-  git pull
-  composer install
-"
+ssh alejandrohernandez@alejandrohernandez.arkania.es "
+	cd /home/alejandrohernandez/travelroad_laravel
+	git pull
+	composer install
+	"
